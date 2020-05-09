@@ -1,0 +1,25 @@
+{
+  "welcomeFile": "/index.html",
+  "authenticationMethod": "none",
+  "routes": [
+{
+ 	"source": "^/Northwind/(.*)$",
+	"target": "$1",
+	"authenticationType": "none",
+	"destination": "Northwind",
+        "csrfProtection": false
+},
+{
+ 	"source": "^/ESPM/(.*)$",
+	"target": "$1",
+	"authenticationType": "none",
+	"destination": "ESPM",
+        "csrfProtection": false
+},
+{
+    "source": "^/(.*)$",
+    "target": "$1",
+    "authenticationType": "none",
+    "localDir": "webapp"
+  }]
+}

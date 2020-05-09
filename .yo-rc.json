@@ -1,0 +1,12 @@
+{
+  "generator-easy-ui5": {
+    "projectname": "ESPMUi5App",
+    "namespace": "com.mysap",
+    "platform": "Application Router @ Cloud Foundry",
+    "viewtype": "XML",
+    "viewname": "MainView",
+    "ui5libs": "Content delivery network (OpenUI5)",
+    "newdir": true,
+    "namespaceURI": "com/mysap"
+  }
+}

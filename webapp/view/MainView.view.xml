@@ -1,0 +1,16 @@
+ <mvc:View controllerName="com.mysap.ESPMUi5App.controller.MainView"
+  displayBlock="true"
+  xmlns="sap.m"
+  xmlns:mvc="sap.ui.core.mvc">
+  <App id="idAppControl" >
+    <pages>
+      <Page title="{i18n>title}">
+        <content>
+        <List items="{/Products}">
+  <StandardListItem type="Active" press="handleListItemPress" title="{ProductName}"/>
+</List>
+        </content>
+      </Page>
+    </pages>
+  </App>
+</mvc:View>
